@@ -50,7 +50,7 @@ if st.button("Paraphrase"):
         st.subheader("Original Text:")
         st.write(input_text)
         st.subheader("Paraphrased Text:")
-        for i, p in enumerate(paraphrases):
+        for i, p in enumerate(paraphrased_text):
             st.write("Option %s: %s" % (i+1, p))
     else:
         st.warning("Please enter some text to paraphrase.")
